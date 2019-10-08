@@ -1,0 +1,42 @@
+.container {
+  width: 1100px;
+  margin: 0 auto;
+  height: 100vh;
+  background-color: grey;
+}
+
+.box {
+  width: 300px;
+  height: 200px;
+  background-color: red;
+  margin: 20px;
+  border: 2px solid yellow;
+}
+
+.margin-auto {
+  margin: 0 auto;
+}
+
+.origine {
+  position: relative;
+}
+
+.noti {
+  position: absolute;
+  bottom: -15px;
+  left: 135px;
+
+  background-color: yellow;
+  border-radius: 15px;
+  height: 30px;
+  width: 30px;
+}
+
+.fix {
+  position: fixed;
+  left: 600px;
+}
+
+.sticky {
+  position: sticky;
+}

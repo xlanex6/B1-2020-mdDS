@@ -1,0 +1,85 @@
+body {
+  color: black;
+  /* background-size: 100%; */
+  /* background-color: cyan; */
+  margin: 0;
+  /* commentaire */
+}
+
+.one {
+  background-color: #ffff;
+  height: 500px;
+}
+.two {
+  background-color: green;
+  height: 400px;
+}
+.three {
+  background-color: red;
+  height: 300px;
+}
+
+section {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+}
+
+h1 {
+  color: #e74c3c;
+  margin-top: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+img {
+}
+
+a {
+  color: green;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+  color: purple;
+  /* text-align: justify; */
+}
+
+.alex {
+  background-color: red;
+  width: 200px;
+  height: 150px;
+  border: solid 3px green;
+  border-radius: 10px;
+}
+
+.julien {
+  background-color: aqua;
+  width: 400px;
+  height: 100px;
+}
+
+.julien p {
+  text-align: center;
+}
+.julien img {
+  float: right;
+}
+
+.parent .date {
+  width: 50%;
+  background-color: green;
+  float: left;
+}
+.parent .copyright {
+  width: 50%;
+  float: right;
+  text-align: right;
+  background-color: greenyellow;
+}

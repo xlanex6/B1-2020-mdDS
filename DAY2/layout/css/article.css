@@ -1,0 +1,27 @@
+article {
+  width: 70%;
+  background-color: purple;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+article iframe {
+  padding: 5%;
+}
+
+article h1 {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-size: 35px;
+}
+
+article p {
+  text-align: justify;
+  padding: 0 5%;
+  letter-spacing: 0.9px;
+  color: rgb(239, 237, 237);
+}
