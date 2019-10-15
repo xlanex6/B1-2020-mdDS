@@ -1,0 +1,127 @@
+html,
+body {
+  margin: 0;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+  background-color: #333333;
+  width: 100%;
+  height: 50px;
+}
+
+header {
+  padding: 30px;
+  height: 400px;
+  overflow: hidden;
+}
+
+header h3 {
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: bolder;
+  color: #6393d2;
+  width: 50%;
+  float: left;
+}
+
+header img {
+  width: 50%;
+  height: auto;
+  float: right;
+}
+
+menu {
+  height: 60px;
+  border-top: solid 2px #f2f2f2;
+  text-align: center;
+  margin: 0;
+}
+
+menu ul li {
+  display: inline-block;
+  text-transform: capitalize;
+  margin: 0 20px;
+  color: #757575;
+}
+/* class utilitaires */
+.container {
+  padding: 30px 0;
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.container-fluid {
+  width: 100vw;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bg-grey {
+  background-color: #f4f4f4;
+}
+
+/* class utilitaires */
+
+.card {
+  background-color: white;
+  padding: 13px;
+  width: 400px;
+  margin: 10px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+.card-footer {
+  text-align: start;
+  width: 400px;
+  height: 0px;
+  position: absolute;
+  padding: 12px 6px 0px 6px;
+  background-color: white;
+  bottom: 0;
+  transition: height 0.3s ease;
+}
+.card:hover .card-footer {
+  height: 34px;
+}
+.card:hover {
+  cursor: pointer;
+}
+.card-footer .name {
+  font-weight: bolder;
+  font-size: 13px;
+  line-height: 16px;
+  margin: 0;
+  color: #333333;
+}
+.card-footer .date {
+  margin: 0;
+  font-size: 12px;
+  line-height: 12px;
+  color: #999999;
+}
+
+.card-footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-footer .save {
+  position: absolute;
+  top: 10px;
+  right: 70px;
+}
+.card-footer .like {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.card img {
+  width: 400px;
+  height: auto;
+}
