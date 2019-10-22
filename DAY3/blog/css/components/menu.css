@@ -1,0 +1,20 @@
+#menu {
+  padding: 10px 0;
+  color: white;
+  height: 40px;
+  display: flex;
+}
+
+#menu h3 {
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+#menu ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.bg-green {
+  background-color: #006400;
+}

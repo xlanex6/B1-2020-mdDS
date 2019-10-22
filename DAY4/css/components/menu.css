@@ -1,0 +1,28 @@
+#menu section {
+  display: flex;
+  flex-direction: column;
+  border-bottom: solid 1px #dcdcdc;
+}
+#menu section:last-child {
+  border-bottom: none;
+}
+
+#menu section a {
+  display: flex;
+  align-items: center;
+  color: #606060;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#menu section a:hover {
+  background-color: #dcdcdc;
+}
+#menu section a i {
+  margin: 0 20px;
+}
+
+#menu section a h3 {
+  font-size: 14px;
+  line-height: 21px;
+}

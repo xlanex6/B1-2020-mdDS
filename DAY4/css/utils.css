@@ -1,0 +1,28 @@
+.container-fluid {
+  width: 100vw;
+}
+
+.relative {
+  position: relative;
+}
+
+.container,
+.mini-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.arrow {
+  position: absolute;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 23px;
+  color: #909090;
+  z-index: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3), 0 0 4px rgba(0, 0, 0, 0.2);
+}
